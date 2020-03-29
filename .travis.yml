@@ -1,6 +1,10 @@
 language: node_js
 node_js:
 - stable
+install:
+  - cd ./functions
+  - npm i
+  - cd ..
 script: echo "YOLO"
 deploy:
   provider: firebase
