@@ -3,6 +3,7 @@ node_js:
 - stable
 install:
   - cd ./functions
+  - npm install
   - npm run lint
   - cd ..
 script: echo "YOLO"
