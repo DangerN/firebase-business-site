@@ -6,6 +6,8 @@ install:
   - npm i
   - cd ..
 script: echo "YOLO"
+before_deploy:
+  - npm i -g eslint
 deploy:
   provider: firebase
   token:
