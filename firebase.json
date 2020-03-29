@@ -3,7 +3,9 @@
     "rules": "database.rules.json"
   },
   "functions": {
-    "predeploy": []
+    "predeploy": [
+      "echo 'why'"
+    ]
   },
   "hosting": {
     "public": "build",
